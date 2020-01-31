@@ -24,7 +24,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 #sobremi {
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     background-color: #b2e0e5;
     color: #007587;
 }
@@ -55,4 +55,15 @@ font-family: Arial, Helvetica, sans-serif;
 
 #cualidades .row:nth-child(even) {
     text-align: right !important;
+}
+
+#curriculum {
+    padding: 3rem 2rem;
+    background-color: #b2e0e5;
+    color: #007587;
+}
+
+#collapseOne, #collapseTwo  {
+    background-color: #0097a9;
+    color:  rgba(255,255,255,.7);
 }
