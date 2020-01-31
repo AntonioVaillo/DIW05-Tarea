@@ -37,13 +37,13 @@
                         <a href="#curriculum" class="nav-link">Curriculum</a>        
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Premios</a>        
+                        <a href="#premios" class="nav-link">Premios</a>        
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Aptitudes</a>        
+                        <a href="#aptitudes" class="nav-link">Aptitudes</a>        
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contacto</a>        
+                        <a href="#contacto" class="nav-link">Contacto</a>        
                     </li>    
                 </ul>
 
@@ -335,7 +335,18 @@
     <div id="premios" class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h1>Premios</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="display-4">Primer "Premios Web de La Verdad" a la mejor web personal (2019)</p>
+                    </div>
+                </div>
+        
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <p class="display-4">Segundo "Premio Web Nacional" a la mejor integración web (2018)</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -344,17 +355,96 @@
     <div id="aptitudes" class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h1>Aptitudes</h1>
+                <h1 class="text-center mb-5">Aptitudes</h1>
+                <table class="table text-center">
+                    <tbody>
+                      <tr>
+                        <td>Laravel</td>
+                        <td>PHP</td>
+                        <td>HTML5</td>
+                      </tr>
+                      <tr>
+                        <td>CSS3</td>
+                        <td>JavaScript</td>
+                        <td>Eloquent</td>
+                      </tr>
+                      <tr>
+                        <td>SQL</td>
+                        <td>PL/SQL</td>
+                        <td>MySQL</td>
+                      </tr>
+                      <tr>
+                        <td>Java</td>
+                        <td>C#</td>
+                        <td>ASP.NET</td>
+                      </tr>
+                      <tr>
+                        <td>Windows</td>
+                        <td>Linux</td>
+                        <td>Alfresco</td>
+                      </tr>
+                    </tbody>
+                  </table>
             </div>
         </div>
     </div>
 
-    <!--Sección de Premios-->
+    <!--Sección de Contacto-->
     <div id="contacto" class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <h1>Contacto</h1>
-            </div>
+            <div class="col-md-8 offset-md-2">
+                <form id="formulario-email" action="#" method="POST" name="formulario-email">
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" required>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" class="form-control" name="apellidos" id="apellidos" required>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="telefono">Teléfono</label>
+                            <input type="number" class="form-control" name="telefono" id="telefono" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row mt-4">
+                        <div class="form-group col-md-12">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" maxlength="200" class="form-control" name="asunto" id="asunto" required>
+                        </div>
+                    </div>
+                    <div class="form-row mt-4">
+                        <div class="form-group col-md-12">
+                            <label for="consulta">Mensaje</label>
+                            <textarea style="min-height: 150px" maxlength="2000" class="form-control" name="consulta" id="consulta" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row pt-5">
+                        <div class="form-row">
+                            <p class=""> En cumplimiento del Reglamento UE 2016/679 del Parlamento Europeo y del
+                                Consejo de 27 de abril de 2016, relativo a la  protección de  las
+                                personas  físicas  en  lo  que  respecta  al tratamiento  de  datos
+                                personales  y  a  la  libre  circulación de  estos  datos  y  de  la
+                                Ley  Orgánica  3/  2018  de  5  de diciembre  de  protección  de  datos
+                                personales  y  garantía  de los  derechos digitales se le informa de que
+                                el tratamiento de sus datos personales es realizado por Antonio Vaillo.
+                            </p>
+                            <div class="form-check mb-3">
+                                <input type="checkbox" class="form-check-input" id="privacidad" name="privacidad" required>
+                                <label class="form-check-label" for="privacidad"> &nbsp;He leído y acepto la política de privacidad</label>
+                            </div>
+                            <div class="form-group col-md-12 pt-4">
+                                <input type="submit" value="Enviar " class="boton-formulario-international"> <i class="fal fa-long-arrow-right fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -367,4 +457,40 @@
     <script src="js/tarea5.js"></script>
 
   </body>
+
+    <footer>
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 offset-md-2">
+                    <ul>
+                        <li>
+                            <a href="#inicio" class="nav-link">Inicio</a>        
+                        </li>
+                        <li>
+                            <a href="#sobremi" class="nav-link">Sobre Mi</a>        
+                        </li>
+                        <li>
+                            <a href="#cualidades" class="nav-link">Cualidades</a>        
+                        </l>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href="#curriculum" class="nav-link">Curriculum</a>        
+                        </l>
+                        <li>
+                            <a href="#premios" class="nav-link">Premios</a>        
+                        </l>
+                        <li>
+                            <a href="#aptitudes" class="nav-link">Aptitudes</a>        
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>                
+    </footer>
 </html>
