@@ -13,7 +13,6 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 #inicio {
-      height: 6rem;
       padding: 1.5rem 2rem;
       background-color: #0097a9;
       color: rgba(255,255,255,.7);;
@@ -27,6 +26,7 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 3rem 2rem;
     background-color: #b2e0e5;
     color: #007587;
+    font-size: 1.5rem;
 }
 
 .link-presentacion {
